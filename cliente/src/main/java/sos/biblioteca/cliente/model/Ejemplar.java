@@ -12,4 +12,8 @@ public class Ejemplar{
     private String estado; // disponible, prestado o baja
     private ResourceLink _links;
 
+    @Override
+    public String toString(){
+        return "ID: " + id + ", libro-id: " + libroId + ", estado: " + estado; 
+    }
 }
